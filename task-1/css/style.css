@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.ukraine, .japan, .iceland, .czech{
+	width: 300px;
+	margin: 50px auto;
+	border: 1px solid black;
+}
+
+.ukraine-blue{
+	background: #111ffc;
+	height: 100px;
+}
+.ukraine-yellow{
+	background: #f8d70c;
+	height: 100px;
+}
+
+.japan{
+	position: relative;
+	height: 200px;
+}
+.japan-red{
+	width: 100px;
+	height: 100px;
+	background: #fc0204;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.iceland-blue{
+	background: #003897;
+	height: 200px;
+
+	position: relative;
+}
+.iceland-white-horizontal{
+	background: #fff;
+	height: 40px;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.iceland-red-horizontal{
+	background: #d62827;
+	height: 20px;
+	width: 100%;
+	position: absolute;
+	top: 25%;	
+}
+.iceland-white-vertical{
+	background: #fff;
+	width: 40px;
+	height: 100%;
+	position: absolute;
+	left: 30%;
+}
+.iceland-red-vertical{
+	background: #d62827;
+	width: 20px;
+	height: 100%;	
+	position: absolute;
+	left: 25%;
+}
+.mini-red-vertical-left, .mini-red-vertical-right{
+	background: #d62827;
+	width: 10px;
+	height: 20px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.mini-red-vertical-right{
+	left: 75%;
+}
+
+.czech-blue{
+	position: absolute;
+	border: 100px solid transparent; 
+    border-left: 150px solid blue;
+}
+.czech-white{
+	background: #fff;
+	height: 100px;
+}
+.czech-red{
+	background: #ee1c25;
+	height: 100px;
+}
