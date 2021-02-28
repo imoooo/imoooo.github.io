@@ -46,19 +46,6 @@ body{
 	transition-duration: 1s;
 }
 
-.new-wrap{
-	width: 100vw;
-	order: -1;
-	border: 10px solid green;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.new-img{
-	opacity: 1;
-	z-index: 3;
-}
-
 @media screen and (max-width: 900px){
 	.container h1{
 		font-size: 24px;
