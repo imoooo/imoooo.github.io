@@ -1,2 +1,2 @@
-# imoooo.github.io
+# Landing Apple Watch SE UA
 Тестове завдання Розетка
